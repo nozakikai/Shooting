@@ -15,12 +15,13 @@ public class Character {
 		x += vx;
 		y += vy;
 	}
+
 	public void draw(MyFrame f) {
 		//drawメソッド（6章）
 		//draw:標準では単純な四角形が描かれる
-		f.setColor(0,128,0);
-		f.fillRect(x, y, 30, 30);
+		f.setColor(255, 255, 0);
+		f.fillRect(x, y, 10, 20);
+
 	}
-	
-	
+
 }
