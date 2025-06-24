@@ -45,6 +45,10 @@ public class Player extends Character implements KeyListener {
 		if ((e.getKeyCode() == KeyEvent.VK_RIGHT) || (e.getKeyCode() == KeyEvent.VK_D)) {
 			vx = 0;
 		}
+		if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+			System.out.println("エンターキーおされたよ");
+			GameWorld.enterpressed=true;
+		}
 	}
 
 	public void keyTyped(KeyEvent e) {
