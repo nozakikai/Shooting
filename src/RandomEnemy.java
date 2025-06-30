@@ -8,7 +8,7 @@ public class RandomEnemy extends Enemy {
 
 	public void move() {
 		super.move();
-		vx = Math.random() * (4+GameWorld.stage)- 2;
+		vx = Math.random() * (4+GameWorld.stage)-1;
 	}
 	public void draw(MyFrame f) {
 		f.setColor(0,255,0);
